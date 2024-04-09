@@ -1,0 +1,39 @@
+Kendaraan - Khusus - Pesawat :
+menambahkan :
+1. import Kendaraan.Util.Flyable;
+2. implements Flyable pada baris 6
+3.  @Override
+    public void Brake() {
+        System.out.println("Mengerem pesawat " + this.getName());
+    }
+
+memperbaiki :
+1. "Menyalakan pesawat " pada baris 9
+
+
+Kendaraan - Khusus - Tank :
+memperbaiki :
+1. "ShootAble" pada baris 6
+2. Memindahkan tulisan "tank" pada baris 9
+3. "vechile" pada baris 24
+
+
+Kendaraan - Pribadi - Motor :
+menambahkan :
+1. public void Start() {
+        System.out.println("Motor " + this.getName() + " dinyalakan");
+    }
+
+
+Kendaraan - Util - ShootAble :
+memperbaiki :
+1. "interface" pada baris 3
+
+
+Kendaraan - kendaraan :
+menambahkan :
+1. public abstract void Stop(); pada baris 10
+2. public abstract void Brake(); pada baris 11
+
+menghapus :
+1. 
